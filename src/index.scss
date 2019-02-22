@@ -1,0 +1,39 @@
+@import "~normalize.css/normalize.css";
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+::-webkit-scrollbar { 
+    display: none; 
+    top: -2px; 
+    left: -2px; 
+}
+
+
+
+#root{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+
+body{
+	height: 100%;
+		position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: none;
+    z-index: 1;
+}

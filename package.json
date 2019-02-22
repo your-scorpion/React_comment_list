@@ -1,0 +1,47 @@
+{
+  "name": "max_tsvetkov_react_comment_list",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://eng.your-scorpion.ru/",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dateformat": "^3.0.3",
+    "gh-pages": "^2.0.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.10.0",
+    "normalize.css": "^8.0.1",
+    "primeicons": "^1.0.0",
+    "primereact": "^2.0.1",
+    "react": "^16.6.3",
+    "react-day-picker": "^7.2.4",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-time": "^4.3.0",
+    "react-time-ago": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "thunk": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

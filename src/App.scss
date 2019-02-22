@@ -1,0 +1,163 @@
+.AddTask {
+    border-radius: 4px;
+    width: 54%;
+    margin: 0 auto;
+}
+
+.EditTask {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.App {
+	text-align: center;
+	overflow: scroll;
+	padding: 25px;	
+}
+
+.border {
+	border-bottom: 1px solid black;
+	width: 100%;
+	margin: 0 auto;
+}
+
+input {
+	width: 60%;
+    background-color: #27cb99;
+    font-size: .875rem;
+    padding: .0625rem .3125rem .1875rem;
+    border-radius: 5px;
+    outline: none;
+    vertical-align: middle;
+    outline: 3px solid orange;
+    box-shadow: 0 3px 5px 1px rgba(#000, 0.25);
+    text-shadow: 0 -1px 0 rgba(#000, 0.25), 0 1px 0 rgba(#fff, 0.2);
+    text-decoration: none;
+}
+
+
+
+textarea{
+	width: 80%;
+	height: 100px;
+}
+
+
+.Task {
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+
+    .task-left-column {
+        width: 40%;
+        background: #dbf0f9;
+        text-align: left;
+        padding: 1%;
+    }
+
+
+    .task-right-column {
+        width: 60%;
+        height: 100%;
+        float: right;
+        text-align: right;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .p-button-danger {
+        border-radius: 0;
+    }
+}
+
+
+
+.btn_style{
+    .add-button {
+        border-radius: 20px;
+        background-color: white;;
+        float: right;
+        color: black;
+        bottom: 0;
+        right: 0;
+        font-size: 40px;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.ShowTask {
+    margin: 0 auto;
+
+    .desc {
+        white-space: normal;
+        word-break: break-all;
+    }
+}
+
+
+
+.p-dialog {
+    position: fixed;
+    padding: 0;
+}
+.p-dialog .p-dialog-titlebar {
+    padding: .5em .75em;
+    position: relative;
+    border: 0;
+}
+.p-dialog .p-dialog-content {
+    position: relative;
+    border: 0;
+    padding: .5em .75em;
+    background: none;
+    zoom: 1;
+}
+.p-dialog-resizable .p-dialog-content {
+    overflow: auto;
+}
+.p-dialog .p-resizable-handle {
+    width: 14px;
+    height: 14px;
+    right: 3px;
+    bottom: 3px;
+    position: absolute;
+    font-size: .1px;
+    display: block;
+    cursor: se-resize;
+}
+.p-draggable .p-dialog-titlebar {
+    cursor: move;
+}
+.p-dialog .p-dialog-titlebar-icons {
+    float: right;
+}
+.p-dialog .p-dialog-titlebar-icons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.p-dialog .p-dialog-titlebar-icon {
+    text-decoration: none;
+    padding: .125em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+
+.p-dialog .p-dialog-titlebar-icon span {
+    display: block;
+    margin: 0;
+}
+.p-dialog-footer {
+    padding: 1em;
+    border-width: 1px 0 0 0;
+    text-align: right;
+}
+
+.p-dialog-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
