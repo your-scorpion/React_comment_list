@@ -1,7 +1,8 @@
 import { persistStore, persistReducer } from 'redux-persist'
-import storage from 'redux-persist/lib/storage' // defaults to localStorage for web and AsyncStorage for react-native
+import storage from 'redux-persist/lib/storage' // для localStorage 
 import { createStore, applyMiddleware } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { composeWithDevTools } from 'redux-devtools-extension'; //Redux не работает, если расширение Redux DevTools не установлено
+
 import thunk from 'redux-thunk';
 import { rootReducer } from '../reducers/rootReducer';
 
