@@ -8,7 +8,7 @@
     "dateformat": "^3.0.3",
     "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "primeicons": "^1.0.0",
     "primereact": "^2.0.1",
